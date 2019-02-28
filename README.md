@@ -11,8 +11,8 @@ For pylama: see [https://github.com/klen/pylama](https://github.com/klen/pylama)
 Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
-- repo: https://github.com/pre-commit/mirrors-pylama
-  rev: v1.0.0
+- repo: https://github.com/broadinstitute/mirrors-pylama
+  rev: v7.6.6
   hooks:
   - id: pylama
 ```
