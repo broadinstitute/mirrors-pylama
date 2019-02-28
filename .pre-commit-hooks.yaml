@@ -1,0 +1,8 @@
+---
+- id: pylama
+  name: pylama
+  entry: pylama
+  language: python
+  'types': [python]
+  args: []
+  additional_dependencies: []
