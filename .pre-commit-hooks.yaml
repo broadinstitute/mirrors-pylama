@@ -1,8 +1,9 @@
 ---
 - id: pylama
   name: pylama
+  description: This hook runs pylama.
   entry: pylama
   language: python
-  'types': [python]
+  types: [file, python]
   args: []
   additional_dependencies: []
